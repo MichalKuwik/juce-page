@@ -1,6 +1,97 @@
-@import '_variables';
+@import 'variables';
+@import 'config';
 
-body{
-  background: darken(#ddd,19);
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
 }
 
+body{
+  width:100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.container-main{
+  width:95%;
+  height: 95%;
+  margin:1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & .main-desktop{
+    width:80%;
+    height: 80%;
+    
+    
+    & h3.logo{
+      font-size:2rem;
+      font-weight: 900;
+    }
+
+    & .main-block{
+      background: $green_color;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      & h1{
+        color:$white_color;
+        font-weight: 500;
+        font-size:13rem;
+      }
+      & h3{
+        color:$white_color;
+        font-weight: 500;
+        font-size:2.5rem;
+        text-transform: lowercase;
+      }
+
+
+      & ul.options{
+        margin-top:1rem;
+        width:50%;
+        display: flex;
+        justify-content: space-around;
+        z-index: 9999;
+
+        & >li{
+          list-style: none;
+          border:2px solid $white_color;
+          padding:10px 5px;
+          cursor: pointer;
+          width:20%;
+          text-align: center;
+          
+          & a{
+            text-decoration: none;
+            color:$white_color;
+            font-size:0.9rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.div-branch{
+
+  width:40vw;
+  height: 90vh;
+  position: absolute;
+  top:7%;
+  left:45%;
+  transform: rotate(180deg);
+
+  & img{
+    width:100%;
+    height: 100%;
+  }
+}
+
+@import 'mobile';
