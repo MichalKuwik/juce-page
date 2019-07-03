@@ -85,12 +85,21 @@
       display: flex;
       flex-direction: column;
       justify-content: center; }
+      .container-juice .main-juice .left-content a {
+        text-decoration: none;
+        color: #000;
+        text-transform: lowercase;
+        font-weight: 900; }
+        .container-juice .main-juice .left-content a .fas {
+          margin-right: 0.5rem; }
       .container-juice .main-juice .left-content .title-juice {
         color: #E17E7E;
-        margin-bottom: 3rem; }
+        margin-bottom: 3rem;
+        text-align: center; }
       .container-juice .main-juice .left-content .description {
         font-size: 1rem;
-        margin-bottom: 3rem; }
+        margin-bottom: 3rem;
+        text-align: center; }
 
 * {
   margin: 0;
