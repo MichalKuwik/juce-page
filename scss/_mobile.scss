@@ -1,0 +1,27 @@
+
+@include mediaMd{
+  .container-main{
+    & .main-desktop{
+
+      & .nav-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & .menu-hamburger{
+          opacity:1;
+        }
+      }
+      & .main-block{
+        & h1{
+          font-size: 10rem;
+        }
+        & h3{
+          font-size: 1.8rem;
+        }
+        & ul.options{
+          display: none;
+        }
+      }
+    }
+  }
+}
