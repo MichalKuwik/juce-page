@@ -25,3 +25,37 @@
     }
   }
 }
+
+@include mediaSm{
+  .container-main{
+    & .main-desktop{
+
+      & .nav-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & .menu-hamburger{
+          opacity:1;
+        }
+      }
+      & .main-block{
+        & h1{
+          font-size: 5rem;
+        }
+        & h3{
+          font-size: 1.2rem;
+        }
+        & ul.options{
+          display: none;
+        }
+      }
+    }
+  }
+
+  .div-branch{
+    height: 80%;
+    width:60%;
+    top:15%;
+    left:35%;
+  }
+}

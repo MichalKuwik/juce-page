@@ -3,6 +3,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  .container-main .main-desktop .nav-wrapper .menu-mobile {
+    height: 77vh;
+    width: 100%;
+    background: linear-gradient(to top, rgba(113, 182, 111, 0.9) 0%, #71b66f 100%);
+    position: absolute;
+    top: 17%;
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 9090909090;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
+    .container-main .main-desktop .nav-wrapper .menu-mobile.show {
+      right: 0; }
+    .container-main .main-desktop .nav-wrapper .menu-mobile .menu-item {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase; }
+      .container-main .main-desktop .nav-wrapper .menu-mobile .menu-item.showItem {
+        animation: showItems 1s 0.5s linear both; }
   .container-main .main-desktop .nav-wrapper .menu-hamburger {
     opacity: 0;
     width: 50px;
@@ -40,6 +63,12 @@
       .container-main .main-desktop .nav-wrapper .menu-hamburger div:nth-child(3).active {
         width: 100%;
         transform: rotateZ(-405deg) translate(10px, -12px); }
+
+@keyframes showItems {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 * {
   margin: 0;
@@ -123,3 +152,22 @@ body {
     font-size: 1.8rem; }
   .container-main .main-desktop .main-block ul.options {
     display: none; } }
+
+@media screen and (max-width: 767px) {
+  .container-main .main-desktop .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .container-main .main-desktop .nav-wrapper .menu-hamburger {
+      opacity: 1; }
+  .container-main .main-desktop .main-block h1 {
+    font-size: 5rem; }
+  .container-main .main-desktop .main-block h3 {
+    font-size: 1.2rem; }
+  .container-main .main-desktop .main-block ul.options {
+    display: none; }
+  .div-branch {
+    height: 80%;
+    width: 60%;
+    top: 15%;
+    left: 35%; } }
