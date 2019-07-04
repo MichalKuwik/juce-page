@@ -89,7 +89,8 @@
         text-decoration: none;
         color: #000;
         text-transform: lowercase;
-        font-weight: 900; }
+        font-weight: 900;
+        text-align: center; }
         .container-juice .main-juice .left-content a .fas {
           margin-right: 0.5rem; }
       .container-juice .main-juice .left-content .title-juice {
