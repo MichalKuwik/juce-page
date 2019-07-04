@@ -59,3 +59,36 @@
     left:35%;
   }
 }
+
+@include mediaXL{
+  .container-juice{
+    
+    & .logo{
+  
+    }
+    & .main-juice{
+      
+  
+      & .left-content{
+       & a{
+          font-size:1.5rem;
+        }
+  
+        & .title-juice{
+          font-size: 2.5rem;
+        }
+        & .description{
+          font-size:1.3rem;
+          
+        }
+      }
+      & .right-content{
+        
+        & .bottle-div{
+          width:30%;
+          height: 80%;
+        }
+    }
+    }
+  }
+}
