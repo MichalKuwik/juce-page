@@ -196,7 +196,7 @@ body {
           border: 2px solid #fff;
           padding: 10px 5px;
           cursor: pointer;
-          width: 20%;
+          width: 22%;
           text-align: center; }
           .container-main .main-desktop .main-block ul.options > li a {
             text-decoration: none;
@@ -226,7 +226,16 @@ body {
   .container-main .main-desktop .main-block h3 {
     font-size: 1.8rem; }
   .container-main .main-desktop .main-block ul.options {
-    display: none; } }
+    display: none; }
+  .container-juice .main-juice .right-content .bottle-div {
+    width: 50%;
+    height: 80%; }
+  .container-juice .main-juice .right-content .bottle-branch-div {
+    height: 85%; }
+  .container-juice .main-juice .right-content .juice-img-div {
+    left: 50%; }
+  .container-juice .main-juice .left-content a {
+    font-size: 1.5rem; } }
 
 @media screen and (max-width: 767px) {
   .container-main .main-desktop .nav-wrapper {
@@ -245,7 +254,48 @@ body {
     height: 80%;
     width: 60%;
     top: 15%;
-    left: 35%; } }
+    left: 35%; }
+  .container-juice .main-juice {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse; }
+    .container-juice .main-juice .left-content {
+      width: 100%;
+      height: 50%; }
+      .container-juice .main-juice .left-content a {
+        font-size: 2rem; }
+        .container-juice .main-juice .left-content a .fas {
+          margin-right: 1.5rem; }
+      .container-juice .main-juice .left-content .title-juice {
+        color: #e17e7e;
+        margin: 10rem 0 3rem 0;
+        font-size: 2rem;
+        text-align: center; }
+      .container-juice .main-juice .left-content .description {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+        text-align: center; }
+    .container-juice .main-juice .right-content {
+      width: 100%;
+      height: 50%; }
+      .container-juice .main-juice .right-content .bottle-div {
+        bottom: 0;
+        right: 30%;
+        width: 40%; }
+      .container-juice .main-juice .right-content .bottle-branch-div {
+        bottom: 5%;
+        left: 15%; }
+      .container-juice .main-juice .right-content .juice-img-div {
+        left: 50%; }
+      .container-juice .main-juice .right-content .overlay-red {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: linear-gradient(to top, rgba(225, 126, 126, 0.2) 0%, rgba(225, 126, 126, 0.5) 100%); } }
 
 @media screen and (min-width: 1171px) {
   .container-juice .main-juice .left-content a {

@@ -24,6 +24,31 @@
       }
     }
   }
+  // strabberry.html
+  .container-juice{
+    
+    & .main-juice{
+    
+      & .right-content{
+        
+        & .bottle-div{
+          width:50%;
+          height: 80%;
+        }
+        & .bottle-branch-div{
+          height: 85%;
+        }
+        & .juice-img-div{
+          left:50%;
+        }
+      }
+      & .left-content{
+        & a{
+          font-size:1.5rem;
+        }
+      }
+    }
+  }
 }
 
 @include mediaSm{
@@ -58,17 +83,75 @@
     top:15%;
     left:35%;
   }
+
+  //starwbery.html----------------------------------------
+  .container-juice{
+    
+    
+    & .main-juice{
+      width:100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+  
+      & .left-content{
+        width:100%;
+        height: 50%;
+       & a{
+          font-size:2rem;
+          & .fas{
+            margin-right: 1.5rem;
+          }
+        }
+  
+        & .title-juice{
+          color:$strawbery_color;
+          margin:10rem 0 3rem 0;
+          font-size:2rem;
+          text-align: center;
+        }
+        & .description{
+          font-size:1rem;
+          margin-bottom:3rem;
+          text-align: center;
+        }
+      }
+      & .right-content{
+        width:100%;
+        height: 50%;
+       & .bottle-div{
+          bottom:0;
+          right:30%;
+          width:40%;
+        }
+  
+        & .bottle-branch-div{
+          bottom:5%;
+          left:15%;
+         }
+  
+        & .juice-img-div{
+          left:50%;
+         }
+        & .overlay-red{
+          position: absolute;
+          right: 0;
+          bottom:0;
+          width:100%;
+          height: 100%;
+          z-index:1;
+          background:linear-gradient(to top,rgba(225, 126, 126,0.2) 0%, rgba(225, 126, 126,0.5) 100%);
+        }
+      }
+    }
+  }
 }
 
 @include mediaXL{
   .container-juice{
     
-    & .logo{
-  
-    }
     & .main-juice{
-      
-  
+    
       & .left-content{
        & a{
           font-size:1.5rem;
@@ -79,7 +162,6 @@
         }
         & .description{
           font-size:1.3rem;
-          
         }
       }
       & .right-content{
