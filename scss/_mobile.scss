@@ -41,6 +41,14 @@
         & .juice-img-div{
           left:50%;
         }
+
+        & .overlay-yellow{
+          width:60%;
+        }
+        & .branch-citron{
+          left:25%;
+          transform: rotate(15deg);
+        }
       }
       & .left-content{
         & a{
@@ -110,6 +118,9 @@
           font-size:2rem;
           text-align: center;
         }
+        & .title-citron{
+          color:$yellow_color;
+        }
         & .description{
           font-size:1rem;
           margin-bottom:3rem;
@@ -142,6 +153,9 @@
           z-index:1;
           background:linear-gradient(to top,rgba(225, 126, 126,0.2) 0%, rgba(225, 126, 126,0.5) 100%);
         }
+        & .overlay-yellow{
+          background:linear-gradient(to top,rgba(220, 177, 24,0.2) 0%, rgba(220, 177, 24,0.5) 100%);
+        }
       }
     }
   }
@@ -169,6 +183,14 @@
         & .bottle-div{
           width:30%;
           height: 80%;
+        }
+
+        & .branch-citron{
+          left:40%;
+          top:10%;
+        }
+        & .juice-citron{
+          left:70%;
         }
     }
     }
