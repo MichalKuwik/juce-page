@@ -127,6 +127,9 @@
         & .title-apple{
           color:$green-apple_color;
         }
+        & .title-plum{
+          color:$violet_color;
+        }
         & .description{
           font-size:1rem;
           margin-bottom:3rem;
@@ -168,6 +171,9 @@
         & .overlay-green{
           background:linear-gradient(to top,rgba(33, 141, 29,0.2) 0%, rgba(33, 141, 29,0.5) 100%);
         }
+        & .overlay-violet{
+          background:linear-gradient(to top,rgba(123, 51, 178,0.2) 0%, rgba(123, 51, 178,0.5) 100%);
+        }
       }
     }
   }
@@ -206,6 +212,9 @@
         }
         & .juice-citron{
           left:70%;
+        }
+        & .juice-plum{
+          left:65%;
         }
         & .overlay-green{
           width:50%;

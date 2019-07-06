@@ -102,6 +102,8 @@
         color: #dcb118; }
       .container-juice .main-juice .left-content .title-apple {
         color: #218d1d; }
+      .container-juice .main-juice .left-content .title-plum {
+        color: #7b33b2; }
       .container-juice .main-juice .left-content .description {
         font-size: 1rem;
         margin-bottom: 2rem;
@@ -153,6 +155,10 @@
         .container-juice .main-juice .right-content .juice-img-div img {
           width: 100%;
           height: 100%; }
+      .container-juice .main-juice .right-content .juice-plum {
+        position: absolute;
+        bottom: -13px;
+        left: 58%; }
       .container-juice .main-juice .right-content .overlay-red {
         position: absolute;
         right: 0;
@@ -172,6 +178,8 @@
       .container-juice .main-juice .right-content .overlay-green {
         width: 60%;
         background: linear-gradient(to top, rgba(33, 141, 29, 0.2) 0%, rgba(33, 141, 29, 0.5) 100%); }
+      .container-juice .main-juice .right-content .overlay-violet {
+        background: linear-gradient(to top, rgba(123, 51, 178, 0.2) 0%, rgba(123, 51, 178, 0.5) 100%); }
 
 * {
   margin: 0;
@@ -311,6 +319,8 @@ body {
         color: #dcb118; }
       .container-juice .main-juice .left-content .title-apple {
         color: #218d1d; }
+      .container-juice .main-juice .left-content .title-plum {
+        color: #7b33b2; }
       .container-juice .main-juice .left-content .description {
         font-size: 1rem;
         margin-bottom: 3rem;
@@ -340,7 +350,9 @@ body {
       .container-juice .main-juice .right-content .overlay-yellow {
         background: linear-gradient(to top, rgba(220, 177, 24, 0.2) 0%, rgba(220, 177, 24, 0.5) 100%); }
       .container-juice .main-juice .right-content .overlay-green {
-        background: linear-gradient(to top, rgba(33, 141, 29, 0.2) 0%, rgba(33, 141, 29, 0.5) 100%); } }
+        background: linear-gradient(to top, rgba(33, 141, 29, 0.2) 0%, rgba(33, 141, 29, 0.5) 100%); }
+      .container-juice .main-juice .right-content .overlay-violet {
+        background: linear-gradient(to top, rgba(123, 51, 178, 0.2) 0%, rgba(123, 51, 178, 0.5) 100%); } }
 
 @media screen and (min-width: 1171px) {
   .container-juice .main-juice .left-content a {
@@ -359,5 +371,7 @@ body {
     top: 10%; }
   .container-juice .main-juice .right-content .juice-citron {
     left: 70%; }
+  .container-juice .main-juice .right-content .juice-plum {
+    left: 65%; }
   .container-juice .main-juice .right-content .overlay-green {
     width: 50%; } }
