@@ -100,6 +100,8 @@
         text-align: center; }
       .container-juice .main-juice .left-content .title-citron {
         color: #dcb118; }
+      .container-juice .main-juice .left-content .title-apple {
+        color: #218d1d; }
       .container-juice .main-juice .left-content .description {
         font-size: 1rem;
         margin-bottom: 2rem;
@@ -135,6 +137,10 @@
         .container-juice .main-juice .right-content .bottle-branch-div img {
           width: 100%;
           height: 100%; }
+      .container-juice .main-juice .right-content .branch-apple {
+        top: 0; }
+      .container-juice .main-juice .right-content .bottle-apple {
+        width: 35%; }
       .container-juice .main-juice .right-content .branch-citron {
         top: 10%; }
       .container-juice .main-juice .right-content .juice-img-div {
@@ -163,6 +169,9 @@
         height: 100%;
         z-index: 1;
         background: linear-gradient(to top, rgba(220, 177, 24, 0.2) 0%, rgba(220, 177, 24, 0.5) 100%); }
+      .container-juice .main-juice .right-content .overlay-green {
+        width: 60%;
+        background: linear-gradient(to top, rgba(33, 141, 29, 0.2) 0%, rgba(33, 141, 29, 0.5) 100%); }
 
 * {
   margin: 0;
@@ -255,6 +264,8 @@ body {
     left: 50%; }
   .container-juice .main-juice .right-content .overlay-yellow {
     width: 60%; }
+  .container-juice .main-juice .right-content .overlay-green {
+    width: 70%; }
   .container-juice .main-juice .right-content .branch-citron {
     left: 25%;
     transform: rotate(15deg); }
@@ -298,6 +309,8 @@ body {
         text-align: center; }
       .container-juice .main-juice .left-content .title-citron {
         color: #dcb118; }
+      .container-juice .main-juice .left-content .title-apple {
+        color: #218d1d; }
       .container-juice .main-juice .left-content .description {
         font-size: 1rem;
         margin-bottom: 3rem;
@@ -312,6 +325,8 @@ body {
       .container-juice .main-juice .right-content .bottle-branch-div {
         bottom: 5%;
         left: 15%; }
+      .container-juice .main-juice .right-content .bottle-apple {
+        width: 35%; }
       .container-juice .main-juice .right-content .juice-img-div {
         left: 50%; }
       .container-juice .main-juice .right-content .overlay-red {
@@ -323,7 +338,9 @@ body {
         z-index: 1;
         background: linear-gradient(to top, rgba(225, 126, 126, 0.2) 0%, rgba(225, 126, 126, 0.5) 100%); }
       .container-juice .main-juice .right-content .overlay-yellow {
-        background: linear-gradient(to top, rgba(220, 177, 24, 0.2) 0%, rgba(220, 177, 24, 0.5) 100%); } }
+        background: linear-gradient(to top, rgba(220, 177, 24, 0.2) 0%, rgba(220, 177, 24, 0.5) 100%); }
+      .container-juice .main-juice .right-content .overlay-green {
+        background: linear-gradient(to top, rgba(33, 141, 29, 0.2) 0%, rgba(33, 141, 29, 0.5) 100%); } }
 
 @media screen and (min-width: 1171px) {
   .container-juice .main-juice .left-content a {
@@ -335,8 +352,12 @@ body {
   .container-juice .main-juice .right-content .bottle-div {
     width: 30%;
     height: 80%; }
+  .container-juice .main-juice .right-content .bottle-apple {
+    width: 25%; }
   .container-juice .main-juice .right-content .branch-citron {
     left: 40%;
     top: 10%; }
   .container-juice .main-juice .right-content .juice-citron {
-    left: 70%; } }
+    left: 70%; }
+  .container-juice .main-juice .right-content .overlay-green {
+    width: 50%; } }

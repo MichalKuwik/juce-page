@@ -39,6 +39,10 @@
       & .title-citron{
         color:$yellow_color;
       }
+
+      & .title-apple{
+        color:$green-apple_color;
+      }
       & .description{
         font-size:1rem;
         margin-bottom:2rem;
@@ -85,9 +89,14 @@
           height: 100%;
         }
       }
+      & .branch-apple{
+        top:0;
+      }
+      & .bottle-apple{
+        width:35%;
+      }
       & .branch-citron{
         top:10%;
-
       }
      
 
@@ -122,6 +131,11 @@
         height: 100%;
         z-index:1;
         background:linear-gradient(to top,rgba(220, 177, 24,0.2) 0%, rgba(220, 177, 24,0.5) 100%);
+      }
+
+      & .overlay-green{
+        width:60%;
+        background:linear-gradient(to top,rgba(33, 141, 29,0.2) 0%, rgba(33, 141, 29,0.5) 100%);
       }
     }
   }

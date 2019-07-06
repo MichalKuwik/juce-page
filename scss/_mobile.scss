@@ -45,6 +45,9 @@
         & .overlay-yellow{
           width:60%;
         }
+        & .overlay-green{
+          width:70%;
+        }
         & .branch-citron{
           left:25%;
           transform: rotate(15deg);
@@ -121,6 +124,9 @@
         & .title-citron{
           color:$yellow_color;
         }
+        & .title-apple{
+          color:$green-apple_color;
+        }
         & .description{
           font-size:1rem;
           margin-bottom:3rem;
@@ -140,6 +146,9 @@
           bottom:5%;
           left:15%;
          }
+         & .bottle-apple{
+           width:35%;
+         }
   
         & .juice-img-div{
           left:50%;
@@ -155,6 +164,9 @@
         }
         & .overlay-yellow{
           background:linear-gradient(to top,rgba(220, 177, 24,0.2) 0%, rgba(220, 177, 24,0.5) 100%);
+        }
+        & .overlay-green{
+          background:linear-gradient(to top,rgba(33, 141, 29,0.2) 0%, rgba(33, 141, 29,0.5) 100%);
         }
       }
     }
@@ -184,6 +196,9 @@
           width:30%;
           height: 80%;
         }
+        & .bottle-apple{
+          width:25%;
+        }
 
         & .branch-citron{
           left:40%;
@@ -192,7 +207,10 @@
         & .juice-citron{
           left:70%;
         }
-    }
+        & .overlay-green{
+          width:50%;
+        }
+      }
     }
   }
 }
