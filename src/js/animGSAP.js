@@ -23,6 +23,15 @@ function load(){
     ease: Back.easeOut.config(1.9),
   });
 
- 
+  // // citron.html
+  TweenMax.from('.right-content-yellow', 1,//speed 
+  { scale:0,
+    ease: Back.easeOut.config(1.9),
+  });
+  TweenMax.from('.overlay-yellow', 1,//speed 
+  { opacity:0,
+    delay:0.5,
+    ease: Back.easeOut.config(1.9),
+  });
 
 }
