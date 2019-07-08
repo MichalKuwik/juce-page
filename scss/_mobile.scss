@@ -166,6 +166,7 @@
           background:linear-gradient(to top,rgba(225, 126, 126,0.2) 0%, rgba(225, 126, 126,0.5) 100%);
         }
         & .overlay-yellow{
+          width:100%;
           background:linear-gradient(to top,rgba(220, 177, 24,0.2) 0%, rgba(220, 177, 24,0.5) 100%);
         }
         & .overlay-green{
@@ -201,9 +202,11 @@
         & .bottle-div{
           width:30%;
           height: 80%;
+          left:55%;
         }
         & .bottle-apple{
           width:25%;
+          left:60%;
         }
 
         & .branch-citron{
