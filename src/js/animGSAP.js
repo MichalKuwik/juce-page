@@ -34,4 +34,26 @@ function load(){
     ease: Back.easeOut.config(1.9),
   });
 
+   // apple.html
+   TweenMax.from('.right-content-green', 1,//speed 
+   { scaleX:0,
+     ease: Back.easeOut.config(1.9),
+   });
+   TweenMax.from('.overlay-green', 1,//speed 
+   { scaleX:0,
+     delay:0.7,
+     ease: Back.easeOut.config(2.9),
+   });
+
+   // plum.html
+   TweenMax.from('.right-content-violet', 1,//speed 
+   { scaleX:0,
+     ease: Back.easeOut.config(1.9),
+   });
+   TweenMax.from('.overlay-violet', 1,//speed 
+   { scaleY:0,
+     delay:0.7,
+     ease: Back.easeOut.config(2.9),
+   });
+
 }
