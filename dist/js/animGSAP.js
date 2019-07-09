@@ -1,4 +1,4 @@
-window.onload = load;
+// window.onload = load;
 
 function load(){
   //index.html
@@ -57,3 +57,4 @@ function load(){
    });
 
 }
+load();
