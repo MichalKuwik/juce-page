@@ -1,4 +1,3 @@
-// window.onload = load;
 
 function load(){
   //index.html
@@ -13,13 +12,14 @@ function load(){
     ease: Back.easeOut.config(.7),
   });
   // strawbery.html
-  TweenMax.from('.right-content-red', 1,//speed 
+
+TweenMax.from('.right-content-red', 1,//speed 
   { height:0,
     ease: Back.easeOut.config(1.9),
   });
   TweenMax.from('.overlay-red', 1,//speed 
   { opacity:0,
-    delay:0.4,
+    delay:0.8,
     ease: Back.easeOut.config(1.9),
   });
 
@@ -30,7 +30,7 @@ function load(){
   });
   TweenMax.from('.overlay-yellow', 1,//speed 
   { opacity:0,
-    delay:0.5,
+    delay:0.7,
     ease: Back.easeOut.config(1.9),
   });
 
