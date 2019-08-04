@@ -31,6 +31,10 @@
           color:$white_color;
           text-transform: uppercase;
 
+          & span{
+            margin-right: 1rem;
+          }
+
           &.showItem{
             animation: showItems 1s 0.5s linear both;
           }
@@ -91,10 +95,10 @@
 }
 
 @keyframes showItems{
-  from{
+  0%{
     opacity:0;
   }
-  to{
+  100%{
     opacity:1;
   }
 }

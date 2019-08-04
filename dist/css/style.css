@@ -40,6 +40,8 @@
       text-decoration: none;
       color: #fff;
       text-transform: uppercase; }
+      .container-main .main-desktop .nav-wrapper .menu-mobile .menu-item span {
+        margin-right: 1rem; }
       .container-main .main-desktop .nav-wrapper .menu-mobile .menu-item.showItem {
         -webkit-animation: showItems 1s 0.5s linear both;
         animation: showItems 1s 0.5s linear both; }
@@ -94,15 +96,15 @@
         transform: rotateZ(-405deg) translate(10px, -12px); }
 
 @-webkit-keyframes showItems {
-  from {
+  0% {
     opacity: 0; }
-  to {
+  100% {
     opacity: 1; } }
 
 @keyframes showItems {
-  from {
+  0% {
     opacity: 0; }
-  to {
+  100% {
     opacity: 1; } }
 
 .container-juice {
